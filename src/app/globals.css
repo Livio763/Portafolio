@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* @variant es una directiva de Tailwind v4 - el linter no la reconoce pero funciona correctamente */
+/* prettier-ignore */
+@variant dark (.dark &);
+
+/* Variables opcionales eliminadas para no interferir con utilidades Tailwind.
+   El color de fondo/texto lo controlamos con clases en el layout. */
